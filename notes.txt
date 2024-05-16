@@ -1,0 +1,5 @@
+"""
+pwd = "Present working directory"
+cd = "change directory"
+dir = "list content of the directory
+"""
