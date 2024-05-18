@@ -3,3 +3,28 @@ pwd = "Present working directory"
 cd = "change directory"
 dir = "list content of the directory
 """
+Functions
+print = "is to print text"
+len = "amount of character in a word"
+abs = "gives you the absolute number"
+"""
+
+""
+Comments
+#  for the single line code
+
+'''  tripple cotation for multiple line of code and the close it for '''
+""
+
+""
+Data types
+String = Words
+Integer = 123
+Float = 1.23
+Boolean - True/False
+List -[1,2,'test']
+Tuple -[1,2,'test']
+Set -[1,2,'test']
+dictionaries - {'a':1,'b':'hello'}
+
+
