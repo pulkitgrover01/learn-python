@@ -18,13 +18,33 @@ Comments
 
 ""
 Data types
-String = Words
-Integer = 123
-Float = 1.23
-Boolean - True/False
-List -[1,2,'test']
-Tuple -[1,2,'test']
-Set -[1,2,'test']
-dictionaries - {'a':1,'b':'hello'}
+String = Words                       \\ str()
+Integer = 123                        \\int()
+Float = 1.23                         \\float()
+Boolean - True/False                 \\ bool()
+List -[1,2,'test']                   \\list()
+Tuple -(1,2,'test')                 \\tuple()
+Set -[1,2,'test']                    \\set()
+dictionaries - {'a':1,'b':'hello'}   \\dict()
 
+""
 
+""
+String
+\n = to break the word into line
+
+list = []
+Tuple = ()
+directory = {}
+
+"""
+
+Boolean values
+==	equal to	x == y
+!=	not equal to	x != y
+>	greater than	x > y
+>=	greater than or equal to	x >= y
+<	less than	x < y
+<=	less than or equal to
+
+""
