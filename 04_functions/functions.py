@@ -26,7 +26,7 @@ def better_calculator(num1, num2, operation):
 
 better_calculator(25,10,'add')
 
-'''
+
 
 
 def good_claculator(num1, num2, operation):
@@ -40,6 +40,35 @@ def good_claculator(num1, num2, operation):
 
 good_claculator(50,5,'divide')
     
+
+
+
+
+def good_calculator(first,second,operation):
+    if operation == 'plus':
+        result = first + second
+        print(f'{first} + {second} = {result}')
+
+    if operation == 'minus':
+        result = first - second
+        print(f'{first} - {second} = {result}')
+
+good_calculator(10,2,'minus')
+good_calculator(5,6,'plus')
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 

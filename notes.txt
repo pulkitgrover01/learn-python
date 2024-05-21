@@ -48,3 +48,26 @@ Boolean values
 <=	less than or equal to
 
 ""
+
+Global : Use Global to access local value and you can edit and change it.
+
+''''
+######################################################################### Functions###########################################
+Parameters
+define = def
+Scope
+Lambda
+Documenting Functions
+
+
+
+
+
+
+
+
+
+
+
+
+
