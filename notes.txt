@@ -52,22 +52,27 @@ Boolean values
 Global : Use Global to access local value and you can edit and change it.
 
 ''''
-######################################################################### Functions###########################################
+######################################################################### Functions ##########################################################
 Parameters
 define = def
 Scope
 Lambda
 Documenting Functions
+Map
+Filter
+
+
+
+######################################################################### Methodas ##########################################################
+.sort()
 
 
 
 
 
-
-
-
-
-
-
+######################## while working on a txt file ################
+r =  read a file : read
+a = edit a file : apend
+w = rewrite the file for fresh : write
 
 
