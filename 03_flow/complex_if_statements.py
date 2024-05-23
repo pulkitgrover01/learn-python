@@ -1,5 +1,5 @@
 
-'''
+
 if True and True:
     print('1True')
 
@@ -24,52 +24,49 @@ if False or True:
 if False or False:
     print('8True')
 
-'''
 
-'''
-money_available = 100
-hungry = False
-board = True
 
-if money_available < 80 and hungry or board:
-    print('eat something fancy')
 
-else:
-    print('skip the meal')
+# money_available = 100
+# hungry = True
+# board = False
 
-'''
+# if money_available > 80 and hungry or board:
+#     print('eat something fancy')
 
-'''
-cost = 'y'
-if cost in ['g','y','h','p',1]:
-        print('list contain g string')
-        if cost.isalpha():
-            print('it is a string value')
+# else:
+#     print('skip the meal')
 
-else:
-     print('focus on your strings')
+# cost = 'y'
+# if cost in ['g','y','h','p',1]:
+#         print('list contain g string')
+#         if cost.isalpha():
+#             print('it is a string value')
 
-'''
+# else:
+#      print('focus on your strings')
+
+# 
 
 #exercise
 
-money_abailable = 70
-hungry = True
-board = True
+# money_abailable = 70
+# hungry = True
+# board = True
 
-if money_abailable > 80:
-    print('i have enough money')
-    if hungry:
-        print('i am hungry to')
-        if board:
-            print('i am going to have good food, today.')
+# if money_abailable > 80:
+#     print('i have enough money')
+#     if hungry:
+#         print('i am hungry to')
+#         if board:
+#             print('i am going to have good food, today.')
 
-        else:
-            print('i have to skip my meal, today')
-    else:
-        print('i have to skip my meal, today')
-else:
-    print('i have to skip my meal, today')
+#         else:
+#             print('i have to skip my meal, today')
+#     else:
+#         print('i have to skip my meal, today')
+# else:
+#     print('i have to skip my meal, today')
 
 
 

@@ -15,3 +15,12 @@ print(weight)
 
 weight_check = min(50,60,100,6)
 print(weight_check)
+
+
+
+
+
+
+
+
+

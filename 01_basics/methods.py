@@ -17,3 +17,19 @@ name_change = 'Ananya'
 small_w = name_change.lower()
 done_changes = small_w.replace('a' , 'b' , 1)
 print(done_changes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

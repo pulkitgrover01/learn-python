@@ -3,62 +3,189 @@ pwd = "Present working directory"
 cd = "change directory"
 dir = "list content of the directory
 """
-Functions
-print = "is to print text"
-len = "amount of character in a word"
-abs = "gives you the absolute number"
-"""
+###########
+value, veriables, Functions, Methodas, data types, Operators
+###########
 
+"""
+\n : Next line
+\t : tab space
 ""
-Comments
+Comments............. Shortcus = ctrl + / 
 #  for the single line code
 
 '''  tripple cotation for multiple line of code and the close it for '''
-""
+
+
+###################################################### Data types ####################################################
+
+##### text type ######
+string - "hello word" : str()
+
+##### number type ######
+Integer - 20 : int()
+Float - 20.0 : float()
+complex
+
+######## Sequence type #######
+List -[1,2,'test'] : list()
+Tuple -(1,2,'test') : tuple()
+range - range(6) : range()
+
+######## Maping type #############
+dictionaries - {'a':1,'b':'hello'} : dict()
+
+######## Set type #############
+Set -[1,2,'test'] : set()
+frozenset - frozenset({1,2,'test'}) : frozenset({})
+
+######## Boolean type #############
+Boolean - True/False : bool()
+
+######## Binary type #############
+bytes - b "hello"
+bytearray - bytearray(5)
+memoryview - memoryview(bytes(5))
+
+######## None type #############
+None : none()
+
+
+
+
+############################################################### Keywords #####################################################################
+
+and                       elif
+as                        assert
+break                     class
+continue                  def
+del                       if 
+elif                      else
+except                    finally
+False                     for
+from                      Global
+return                    import
+in                        is
+Lambda                    nonlocal
+none                      not
+or                        pass
+raise                     True
+try                       with
+while                     yield
+
 
 ""
-Data types
-String = Words                       \\ str()
-Integer = 123                        \\int()
-Float = 1.23                         \\float()
-Boolean - True/False                 \\ bool()
-List -[1,2,'test']                   \\list()
-Tuple -(1,2,'test')                 \\tuple()
-Set -[1,2,'test']                    \\set()
-dictionaries - {'a':1,'b':'hello'}   \\dict()
-
-""
-
-""
-String
-\n = to break the word into line
-
 list = []
 Tuple = ()
-directory = {}
+set = {}
+directory = {key:value} 
 
 """
 
-Boolean values
+################################################### Operators ##################################################
+type of Operators
+.............
+
+Arithmetic Operators: +, -, *, /, %, **
+.............
+
+Relational / Comparison Operators: ==, !=, >, <, >=, <=   
+
+.................Output you will get in Boolean values which is True or False....................
 ==	equal to	x == y
 !=	not equal to	x != y
 >	greater than	x > y
 >=	greater than or equal to	x >= y
 <	less than	x < y
 <=	less than or equal to
+.........................
+
+Assignment Operators: =, +=, -=, *=, /=, %=, **=
+...................
+
+Logical Operators: not, and, or 
+.................Output you will get in Boolean values which is True or False....................
+
+##############################################################################################
+
+
+
+
+
 
 ""
 
 Global : Use Global to access local value and you can edit and change it.
+return : use to exit from loacl value
 
 ''''
-######################################################################### Functions###########################################
+######################################################################### Functions ##########################################################
+......................................... Built-in Functions ...........................
+print() = "is to print text"
+type() = to check the data type
+len = "amount of character in a word"
+abs = "gives you the absolute number"
+range() =
+str = it work with english Words
+
 Parameters
 define = def
 Scope
 Lambda
 Documenting Functions
+Map
+Filter
+......................................... User defined Functions ...........................
+I have to add
 
+
+######################################################################### Methodas ##########################################################
+..........................................Methods for Strings............................
+.capitalize()
+.upper()
+.lower()
+.title()
+.strip() : to remove white space from front or end
+.replace()
+.find()
+.split()
+
+..........................................Methods for List............................
+.apend() : add one element at the end
+.sort()  : sorting in accending order
+.sort(reverses = True)  : sorting in descending order
+.reverse() : reverses list
+.insert(idx.el) : insert element at index
+.remove() : remove first occurrence of element
+.pop() : remove element at intex
+
+..........................................Methods for Tuple ............................
+.index()
+.count()
+
+..........................................Methods for Set ............................
+.add() :
+.clear() : 
+
+..........................................Methods for dictionaries ............................
+.keys() : retures all keys
+.values() : returns all values
+.items() : return all (key: value) pairs as tuples
+.get(key) : retures the key according to values
+.update(#veriables) : insert the specified items to the dictionaries
+
+
+
+
+######################## While working on a .txt file ################
+r =  read a file : read
+a = edit a file : apend
+w = rewrite the file for fresh : write
+
+
+######################## To delete the file ################
+import os
+os.remove("practice.txt")
 
 
 
