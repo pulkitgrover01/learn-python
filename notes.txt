@@ -120,6 +120,7 @@ return : use to exit from loacl value
 
 ''''
 ######################################################################### Functions ##########################################################
+<<<<<<< HEAD
 ......................................... Built-in Functions ...........................
 print() = "is to print text"
 type() = to check the data type
@@ -128,6 +129,8 @@ abs = "gives you the absolute number"
 range() =
 str = it work with english Words
 
+=======
+>>>>>>> 7c38668e0c24d8ef8aef921c4ffe1090e4915dde
 Parameters
 define = def
 Scope
@@ -135,6 +138,7 @@ Lambda
 Documenting Functions
 Map
 Filter
+<<<<<<< HEAD
 ......................................... User defined Functions ...........................
 I have to add
 
@@ -186,15 +190,21 @@ w = rewrite the file for fresh : write
 ######################## To delete the file ################
 import os
 os.remove("practice.txt")
+=======
+
+
+
+######################################################################### Methodas ##########################################################
+.sort()
+
+>>>>>>> 7c38668e0c24d8ef8aef921c4ffe1090e4915dde
 
 
 
 
-
-
-
-
-
-
+######################## while working on a txt file ################
+r =  read a file : read
+a = edit a file : apend
+w = rewrite the file for fresh : write
 
 

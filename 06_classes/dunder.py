@@ -6,6 +6,7 @@ class Monster:
         self.health = health
         self.energy = energy
 
+<<<<<<< HEAD
     def __len__(self):
         return self.health
     
@@ -23,6 +24,8 @@ class Monster:
     #############################
    
 
+=======
+>>>>>>> 7c38668e0c24d8ef8aef921c4ffe1090e4915dde
     #methods
 #monster1 
     def m1properties(self, attack, speed):
@@ -45,11 +48,14 @@ class Monster:
 #monster1 
 monster1 =  Monster(health=100,energy=50)
 monster1.m1properties(40,50)
+<<<<<<< HEAD
 print(len(monster1))
 print(abs(monster1))
 monster1()
 print(monster1 + 20)
 print(str(monster1))
+=======
+>>>>>>> 7c38668e0c24d8ef8aef921c4ffe1090e4915dde
 
 #monster2
 monster2 = Monster(health=50,energy=25)
