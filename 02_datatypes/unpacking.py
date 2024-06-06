@@ -14,6 +14,3 @@ print(value2)
 
 
 
-
-
-

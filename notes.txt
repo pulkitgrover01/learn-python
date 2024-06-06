@@ -85,26 +85,20 @@ directory = {key:value}
 ################################################### Operators ##################################################
 type of Operators
 .............
-
 Arithmetic Operators: +, -, *, /, %, **
+
 .............
-
-Relational / Comparison Operators: ==, !=, >, <, >=, <=   
-
-.................Output you will get in Boolean values which is True or False....................
-==	equal to	x == y
-!=	not equal to	x != y
->	greater than	x > y
->=	greater than or equal to	x >= y
-<	less than	x < y
-<=	less than or equal to
-.........................
-
 Assignment Operators: =, +=, -=, *=, /=, %=, **=
-...................
 
-Logical Operators: not, and, or 
+...................
+Relational / Comparison Operators: ==, !=, >, <, >=, <=   
 .................Output you will get in Boolean values which is True or False....................
+
+.........................
+Logical Operators: and, or , not
+.................Output you will get in Boolean values which is True or False....................
+x<5 and x < 10
+
 
 ##############################################################################################
 
@@ -120,7 +114,7 @@ return : use to exit from loacl value
 
 ''''
 ######################################################################### Functions ##########################################################
-<<<<<<< HEAD
+
 ......................................... Built-in Functions ...........................
 print() = "is to print text"
 type() = to check the data type
@@ -130,15 +124,14 @@ range() =
 str = it work with english Words
 
 =======
->>>>>>> 7c38668e0c24d8ef8aef921c4ffe1090e4915dde
-Parameters
+
 define = def
 Scope
 Lambda
 Documenting Functions
 Map
 Filter
-<<<<<<< HEAD
+
 ......................................... User defined Functions ...........................
 I have to add
 
@@ -155,6 +148,7 @@ I have to add
 .split()
 
 ..........................................Methods for List............................
+.insert(): you can add element in any specified index
 .apend() : add one element at the end
 .sort()  : sorting in accending order
 .sort(reverses = True)  : sorting in descending order
@@ -170,6 +164,7 @@ I have to add
 ..........................................Methods for Set ............................
 .add() :
 .clear() : 
+.update()
 
 ..........................................Methods for dictionaries ............................
 .keys() : retures all keys
@@ -191,15 +186,6 @@ w = rewrite the file for fresh : write
 import os
 os.remove("practice.txt")
 =======
-
-
-
-######################################################################### Methodas ##########################################################
-.sort()
-
->>>>>>> 7c38668e0c24d8ef8aef921c4ffe1090e4915dde
-
-
 
 
 ######################## while working on a txt file ################
