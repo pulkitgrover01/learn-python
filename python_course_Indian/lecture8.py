@@ -148,41 +148,121 @@
 
 
 
-class account:
+# class account:
 
-    def __init__(self,nam,acc,bal):
-        self.name = nam
-        self.account = acc
-        self.balance = bal
+#     def __init__(self,nam,acc,bal):
+#         self.name = nam
+#         self.account = acc
+#         self.balance = bal
 
-        print("")
+#         print("")
 
-    def debit(self, amount):
-        self.balance -= amount
-        print(f"Dear {self.name}.\nYour accout no: {self.account}.\nDebited amount: {amount}.\nTotal amount: {self.balance}")
+#     def debit(self, amount):
+#         self.balance -= amount
+#         print(f"Dear {self.name}.\nYour accout no: {self.account}.\nDebited amount: {amount}.\nTotal amount: {self.balance}")
 
-        print("")
+#         print("")
 
-    def credit(self, amount):
-        self.balance += amount
-        print(f"Dear {self.name}.\nYour accout no: {self.account}.\nCredited amount: {amount}.\nTotal amount: {self.balance}")
+#     def credit(self, amount):
+#         self.balance += amount
+#         print(f"Dear {self.name}.\nYour accout no: {self.account}.\nCredited amount: {amount}.\nTotal amount: {self.balance}")
 
-        print("")
+#         print("")
 
-    def total_amt(self):
-        return self.balance
+#     def total_amt(self):
+#         return self.balance
 
 
     
 
-c1 = account("Pulkit", 75420689, 62000)
-c1.debit(500)
-c1.credit(5500)
+# c1 = account("Pulkit", 75420689, 62000)
+# c1.debit(500)
+# c1.credit(5500)
 
 
 # c2 = account("Lakshya", 45989515, 75600)
 # c2.debit(1200)
 # c2.credit(5600)
+
+
+# class bike:
+
+#     def __init__(self,ownr,nam,colr,numb):
+#         self.owner = ownr
+#         self.name = nam
+#         self.color = colr
+#         self.number = numb
+
+
+    
+
+# b1 = bike("Pulkit Grover","Scrambler","Green",8523)
+# print(f"owner name:{b1.owner}\nBike name:{b1.name}\nBike color:{b1.color}\nBike number:{b1.number}")
+
+
+# b2 = bike("Raj Kumar","splender+","Black",8711)
+# print(f"owner name:{b2.owner}\nBike name:{b2.name}\nBike color:{b2.color}\nBike number:{b2.number}")
+
+
+
+#Bank calculater
+
+# class bank:
+
+#     def __init__(self,bank,name,balance):
+#         self.bank = bank
+#         self.name = name
+#         self.balance = balance
+
+#     def debit(self, amount):
+#         self.balance -= amount
+#         print(f"Hey {self.name}. Your bank {self.bank} account Rs.{amount} has been debited. Your remaing amount {self.balance}.")
+
+#     def credit(self, amount):
+#         self.balance += amount
+#         print(f"Hey {self.name}. Your bank {self.bank} account Rs.{amount} has been credited. Your remaing amount {self.balance}.")
+
+#     def total_amount(self):
+#         return self.balance
+
+
+
+# c1 = bank("HDFC","Pulkit",7500)
+# c1.debit(500)
+# c1.credit(1000)
+
+
+
+
+
+
+#class result
+
+# class student:
+    
+#     def __init__(self, nam, rol, rslt):
+#         self.name = nam
+#         self.roll_no = rol
+#         self.result = rslt
+
+#     def t_result(self):
+#         sum = 0
+#         for val in self.result:
+#              sum += val
+#              return
+
+
+#         print(f"Hello {self.name} \nRoll no: {self.roll_no}.\nYou scored:\nMath:{self.result[0]}\nScience:{self.result[1]}\nChemestry:{self.result[2]}\
+#               \neconomic:{self.result[3]}\nEnglish:{self.result[4]}\nTotal score: {sum}/500\nAverage_score: {sum/5}")
+
+
+
+# s1 = student("Pulkit", 22, [75,84,56,79,94])
+# s1.t_result()
+
+
+
+
 
 
 
