@@ -16,6 +16,9 @@ Comments............. Shortcus = ctrl + /
 
 '''  tripple cotation for multiple line of code and the close it for '''
 
+###################################################### Shortcuts ####################################################
+alt + shift + down arrow:  to dublicate the line.
+
 
 ###################################################### Data types ####################################################
 

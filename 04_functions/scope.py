@@ -44,7 +44,7 @@ test_function2(capacity)
 
 
 
-######## Return the value to Global#########
+######## Return the value to Global #########
 
 a = 5
 
