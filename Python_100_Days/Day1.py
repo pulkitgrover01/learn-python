@@ -1,9 +1,4 @@
 
-
-
-
-
-
 # def f_for(num):
 #     for number in num:
 #         print("For",number)
@@ -95,25 +90,119 @@
 #     sum = 0
 #     for i in number:
 #         sum += i
-#     print(sum / len(number) )
+#     return sum / len(number)
 
 
-# average(2,4,6)
+# c= average(2,4,6)
+
+# print(c)
 
 
-
-
-
-
-
-
+# import this
 
 
 
 
+# def find_Factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+    
+#     else:
+#         return n * find_Factorial(n-1)
+
+
+# print(find_Factorial(4))
+
+
+# def fibonacci_seq(n):
+#     if n == 1 or n == 2:
+#         return 1
+#     else:
+#         return fibonacci_seq(n-1) + fibonacci_seq(n-2)
 
 
 
+# print(fibonacci_seq(7))
+
+
+
+# test_dictionary = {'a' : 123, 1 : True, "b" : 456, 'AB' : 'lets see'}
+
+
+# for key, value in test_dictionary.items():
+#     print(f"your Key: {key} and values: {value}")
+
+# else:
+# #     print("Done")
+
+
+
+
+# for i in range(10):
+#     print(f"iteration no {i+1} in for loop")
+#     # if i > 5:
+#     #     break
+
+# else:
+#     print("else block in loop")
+
+# print("Out of loop")
+
+
+
+
+
+
+# x = int(input("Enter number: "))
+# try:
+#     num = [4,6,8]
+#     print(num[x])
+
+#     print(x + 5)
+
+# except NameError:
+#     print("Name not defined")
+
+# except TypeError:
+#     print("Typing error")
+
+# except IndexError:
+#     print("There is an index error")
+
+# else:
+#     print("something")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# while True:
+#     a =  input("Entr the value between 5 and 9: ")
+
+#     if "quit" == a:
+#         print("You are out of program now.") 
+#         break
+        
+
+#     a = int(a)
+#     if 5 <= a <= 8:
+#         print("Yes! Sir")
+#         break
+
+
+#     else:
+#         raise ValueError("Value should be between 5 and 9")
+#     # raise Exception ValueError TypeError IndexError NameError 
 
 
 

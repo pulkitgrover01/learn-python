@@ -1,56 +1,56 @@
-######################### List and Tuple #######################
+######################## List and Tuple #######################
 
-# value = [5,3,9,12,55,23]
+value = [5,3,9,12,55,23]
 
-# value.append(99)
+value.append(99)
 
-# value.reverse()
+value.reverse()
 
-#value.insert(3,4)
-# value.remove(12)
-# value.pop(1)
+value.insert(3,4)
+value.remove(12)
+value.pop(1)
 
-# print(value)
+print(value)
 
-# movies = []
+movies = []
 
-# a = "Khan"
-# b = "Shan"
-# c = "Jaan"
+a = "Khan"
+b = "Shan"
+c = "Jaan"
 
-# movies.append(a)
-# movies.append(b)
-# movies.append(c)
+movies.append(a)
+movies.append(b)
+movies.append(c)
 
-# print(movies)
+print(movies)
 
 
-# videos = []
-# vid = input("Enter first video: ")
-# videos.append(vid)
-# vid = input("Enter your second video: ")
-# videos.append(vid)
-# vid = input("Enter your third video: ")
-# videos.append(vid)
+videos = []
+vid = input("Enter first video: ")
+videos.append(vid)
+vid = input("Enter your second video: ")
+videos.append(vid)
+vid = input("Enter your third video: ")
+videos.append(vid)
 
-# print(videos)
+print(videos)
 
-# list1 = [1,2,3,4,5,4,3,2,1]
-# list2 = [1,2,3,4,5,6,7,8,9]
+list1 = [1,2,3,4,5,4,3,2,1]
+list2 = [1,2,3,4,5,6,7,8,9]
 
-# copy_list1 = list1.copy()
-# copy_list1.reverse()
+copy_list1 = list1.copy()
+copy_list1.reverse()
 
-# if copy_list1 == list1:
-#     print("palindrome")
+if copy_list1 == list1:
+    print("palindrome")
 
-# else:
-#     print("not palindrome")
+else:
+    print("not palindrome")
 
-# grade = ("a","b","c","d","a","g","c","a","b","a")
+grade = ("a","b","c","d","a","g","c","a","b","a")
 
-# output = grade.count("a")
-# print(output)
+output = grade.count("a")
+print(output)
 
 grade = ["a","b","c","d","a","g","c","a","b","a"]
 
