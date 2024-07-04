@@ -71,22 +71,22 @@
  
 
 
-with open("numbers.txt","w") as n:
-    num = n.write("1,2,76,84,90,101")
+# with open("numbers.txt","w") as n:
+#     num = n.write("1,2,76,84,90,101")
 
-counter = 0
-with open("numbers.txt","r") as n:
-    spl = n.read()
-    print(spl)
+# counter = 0
+# with open("numbers.txt","r") as n:
+#     spl = n.read()
+#     print(spl)
 
-    oddeven = spl.split(",")
-    print(oddeven)
+#     oddeven = spl.split(",")
+#     print(oddeven)
 
-    for check in oddeven:
-        if int(check) %2 == 0:
-            counter  += 1
+#     for check in oddeven:
+#         if int(check) %2 == 0:
+#             counter  += 1
             
-print(counter)
+# print(counter)
 
 
 

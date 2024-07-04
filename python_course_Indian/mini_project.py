@@ -112,20 +112,77 @@
               
 # print("---------- Game Over -----------")
 
+#"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" For reference
+import random
+
+def get_computer_choice():
+    choices = ['rock', 'paper', 'scissors']
+    return random.choice(choices)
+
+def get_user_choice():
+    user_input = input("Enter your choice (rock, paper, or scissors): ").lower()
+    while user_input not in ['rock', 'paper', 'scissors']:
+        print("Invalid choice. Please try again.")
+        user_input = input("Enter your choice (rock, paper, or scissors): ").lower()
+    return user_input
+
+def determine_winner(user_choice, computer_choice):
+    if user_choice == computer_choice:
+        return "It's a tie!"
+    elif (user_choice == 'rock' and computer_choice == 'scissors') or \
+         (user_choice == 'paper' and computer_choice == 'rock') or \
+         (user_choice == 'scissors' and computer_choice == 'paper'):
+        return "You win!"
+    else:
+        return "You lose!"
+
+def play_game():
+    user_choice = get_user_choice()
+    comp_choice = get_computer_choice()
+    print(f"Computer chose: {comp_choice}")
+    result = determine_winner(user_choice, comp_choice)
+    print(result)
+
+# Play the game
+play_game()
+
 
 
 ##################################################################################### Simple Calcaluter
 
+# Arithmetic_Operators = ["+", "-", "*", "/", "%", "**","//"]
+
+# while True:
+
+#     user_input_1 = int(input("\nEnter First value: "))
+#     user_input_2 = int(input("Enter First value: "))
+    
+
+#     Arithmetic_opt = input("Enter Arithmetic Operators: ")
+#     while Arithmetic_opt not in Arithmetic_Operators:
+#         Arithmetic_opt = input("Enter Correct Arithmetic Operators(+,-,*,/,%,**,//): ")
 
 
+#     if Arithmetic_opt == "+":
+#         print(f"\nThe Addition of {user_input_1} and {user_input_2} is {user_input_1 + user_input_2}")
 
+#     elif Arithmetic_opt == "-":
+#         print(f"\nThe Subtraction of {user_input_1} and {user_input_2} is {user_input_1 - user_input_2}")
 
+#     elif Arithmetic_opt == "*":
+#         print(f"\nThe Multiplication of {user_input_1} and {user_input_2} is {user_input_1 * user_input_2}")
 
+#     elif Arithmetic_opt == "/":
+#         print(f"\nThe Division of {user_input_1} and {user_input_2} is {user_input_1 / user_input_2}")
 
+#     elif Arithmetic_opt == "%":
+#         print(f"\nThe Modulus of {user_input_1} and {user_input_2} is {user_input_1 % user_input_2}")
 
+#     elif Arithmetic_opt == "**":
+#         print(f"\nThe Exponentiation of {user_input_1} and {user_input_2} is {user_input_1 ** user_input_2}")
 
-
-
+#     elif Arithmetic_opt == "//":
+#         print(f"\nThe Floor division of {user_input_1} and {user_input_2} is {user_input_1 // user_input_2}")
 
 
 
@@ -274,8 +331,6 @@
 
 ######################################################################### Kon Bnega Crorepati!
 
-
-
 # print("")
 # print("Welcome to Kon bnega Crorepati!".title())
 # print("")
@@ -342,7 +397,7 @@
 # print(result)
 
 
-
+#""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 # Questions = [
 #     ["Which language was used to create Fb?","Python","French","Javascript","C++",4],
@@ -405,65 +460,125 @@
 
 
 
-
-
 ######################################################################### Encription or Decription
 
-# import string
 # import random
-
-# rand_string = string.ascii_letters
-
-# user_input = input("Pleae enter your word: ")
-
-# encr_or_Decr = int(input("Press 0 for Encription and 1 for Decription: "))
-# while encr_or_Decr not in range(2):
-#     encr_or_Decr = int(input("Press 0 for Encription and 1 for Decription: "))
+# import string
 
 
-# #Encription
-# if encr_or_Decr == 0:
+# while True:
+#     user_code = input("Enter Code or Decode or Quit: ").lower()
+#     while user_code not in ["code", "decode", "quit"]:
+#         user_code = input("Please choose correct option- Code or Decode or Quit: ").lower()
 
-#     if len(user_input) > 3:
+#     if user_code == "code":
+#         user_input = input("Please ender your message: ")
+#         usr_ipt = user_input.split()
+#         connect = []   
+#         for i in usr_ipt:
+#             if len(i) > 2:
+#                 # pass
+#                 code = i[1:] + i[0]
+#                 f_b_code = "".join(random.choice(string.ascii_letters) for i in range(3)) \
+#                             + code +  \
+#                             "".join(random.choice(string.ascii_letters) for i in range(3))
 
-#         rnd_gen_F = ''.join([random.choice(rand_string) for i in range(3)])
-#         rnd_gen_L = ''
-#         for i in range(3):
-#             rnd_gen_L += random.choice(rand_string)
+#                 connect.append(f_b_code)
+                    
+#             else:
+#                 # pass
+#                 s_word = i[::-1]
+#                 connect.append(s_word)
 
-#         b = user_input
-#         c = list(b)
-#         c.append(c[0])
-#         c.remove(c[0])
-#         c.insert(0, rnd_gen_F)
-#         c.append(rnd_gen_L)
-#         d = ''.join(c)
-#         print(d)
+#         print(' '.join(connect))
+
+
+#     elif user_code == "decode":
+#         user_input = input("Please ender your message: ")
+#         usr_ipt = user_input.split()
+#         # pass
+#         connect = []
+#         for i in usr_ipt:
+#             if len(i) > 2:
+
+#                 code = i[3:-3]
+
+#                 f_b_code = code[-1] + code[:-1]
+
+#                 connect.append(f_b_code)
+
+#             else:
+#                 # pass
+#                 s_word = i[::-1]
+#                 connect.append(s_word)
+                
+#         print(' '.join(connect))
+
+
+#     elif user_code == "quit":
+#         break
+
+######################################################################### Encription or Decription using Function Method
+
+# import random
+# import string
+
+# ########### Code
+# def code(user_input, enc_str):
+#     store = []
+#     usr_ipt = user_input.split()
+#     for a in usr_ipt:
+
+#         code1 = ''.join(random.choice(string.ascii_letters) for enc1 in range(enc_str))
+#         code2 = ''.join(random.choice(string.ascii_letters) for enc1 in range(enc_str))
         
-#     else:
-#         b = user_input
-#         c = list(b)
-#         c.reverse()
-#         d = ''.join(c)
-#         print(d)
-   
-# #Decription
+#         code = a[-1] + code1 + a[1:-1] + code2 + a[0] 
+#         store.append(code)
+#     result = ' '.join(store)
+#     return result
 
-# elif encr_or_Decr == 1:
+# ########### Decode
+# def decode(user_input1, enc_str):
 
-#     if len(user_input) > 3:
-#         b = user_input
-#         c = b[3:-3]
-#         d = list(c)
-#         e = d.pop(-1)
-#         d.insert(0, e)
-#         d = ''.join(d)
-#         print(d)
+#     store1 = [] 
+#     usr_ipt1 = user_input1.split()
+#     for b in usr_ipt1:
 
-#     else:
-#         b = user_input
-#         c = list(b)
-#         c.reverse()
-#         d = ''.join(c)
-#         print(d)
+#         code1 = b[-1] + b[enc_str+1:len(b)-(enc_str+1)] + b[0]
+        
+#         store1.append(code1)
+#     result = ' '.join(store1)
+#     return result
+    
+# ########### Converter
+# def converter():
+#     while True:
+#         user_code = input("Enter Code or Decode or Quit: ").lower()
+#         while user_code not in ["code", "decode", "quit"]:
+#             user_code = input("Please choose correct option- Code or Decode or Quit: ").lower()
+
+#         if user_code == "code":
+#             user_input = input("Please enter your message to code: ")
+#             cod_str = int(input("Enter the encrytion number: "))
+#             result = code(user_input, cod_str)
+#             print(result)
+
+#         elif user_code == "decode":
+#             user_input = input("Please enter your message to decode: ")
+#             cod_str = int(input("Enter the encryption number: "))
+#             result = decode(user_input, cod_str)
+#             print(result)
+
+#         elif user_code == "quit":
+#             break
+ 
+# converter()    
+
+
+
+
+
+
+
+
 

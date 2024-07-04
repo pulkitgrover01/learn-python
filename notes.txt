@@ -140,6 +140,12 @@ I have to add
 
 
 ######################################################################### Methodas ##########################################################
+print(dir(str))
+print(dir(int))
+print(dir(list))
+print(dir(tuple))
+print(dir(set))
+print(dir(dict))
 ..........................................Methods for Strings............................
 .capitalize()
 .upper()
@@ -196,4 +202,6 @@ r =  read a file : read
 a = edit a file : apend
 w = rewrite the file for fresh : write
 
-
+######################## To get he index with the list or Output ################
+for index,a in enumerate(range(0,100),start=1):
+    print(f"{index} : Yes")
