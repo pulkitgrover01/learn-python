@@ -1,0 +1,2 @@
+['chawal', 'kela', 'apple', 'milk', 'protine shake'] ....... 2024-07-17 01:34:01.120177
+['car', 'bus', 'trafic', 'chediya', 'kawa ', 'tafic'] ....... 2024-07-18 23:49:20.544479

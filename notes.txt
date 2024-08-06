@@ -185,23 +185,50 @@ print(dir(dict))
 
 
 
-######################## While working on a .txt file ################
+######################## Read Or working files ################
 r =  read a file : read
 a = edit a file : apend
 w = rewrite the file for fresh : write
+rb = read Binary files
+wb = write Binary files
 
 
 ######################## To delete the file ################
 import os
-os.remove("practice.txt")
+
+print(os.getcwd())  # to check current working directory
+os.chdir("C:/Users/pgrover/Desktop")  # to check current working directory
+print(os.listdir())  # get all the files name in terminal
+os.mkdir(") # to create folder
+os.makedirs("HEYA/heya1") # to create folder and sub-folders
+os.remove("practice.txt")  # to delete file from directory
+
 =======
 
 
-######################## while working on a txt file ################
-r =  read a file : read
-a = edit a file : apend
-w = rewrite the file for fresh : write
+######################## list comprehensions  ################
+# Without comprehensions
+ls = []
+for i in range(140):
+    if i % 14 == 0:
+        ls.append(i)
+print(ls)
+
+# With comprehensions
+a = [i for i in range(100) if i % 2 == 0]
+print(a)
 
 ######################## To get he index with the list or Output ################
 for index,a in enumerate(range(0,100),start=1):
     print(f"{index} : Yes")
+
+######################## Walrus Operators (:) ################
+foods = []
+while (food := input("enter the food you like: ")) != "quit":
+    foods.append(food)
+print(foods)
+
+
+
+
+

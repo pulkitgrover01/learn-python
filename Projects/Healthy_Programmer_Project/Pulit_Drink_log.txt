@@ -1,0 +1,26 @@
+
+Total water to drink 1000 times.
+1: Drank water at 2024-07-20 22:11:16.304394                    
+Remining water 500
+2: Didn't drink water 2024-07-20 22:11:25.057139                    
+Remining water 500
+3: Drank water at 2024-07-20 22:11:33.381504                    
+Remining water 0
+You skipped 1 times.
+
+Total water to drink 1000 times.
+
+Total water to drink 1000 times.
+
+Total water to drink 1000 times.
+
+Total water to drink 1000 times.
+1: Drank water at 2024-07-20 22:42:53.812506                    
+Remining water 500
+2: Didn't drink water 2024-07-20 22:43:01.912877                    
+Remining water 500
+3: Didn't drink water 2024-07-20 22:43:10.012606                    
+Remining water 500
+4: Drank water at 2024-07-20 22:43:17.256957                    
+Remining water 0
+You skipped 2 times.

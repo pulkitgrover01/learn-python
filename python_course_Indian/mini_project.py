@@ -113,38 +113,38 @@
 # print("---------- Game Over -----------")
 
 #"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" For reference
-import random
+# import random
 
-def get_computer_choice():
-    choices = ['rock', 'paper', 'scissors']
-    return random.choice(choices)
+# def get_computer_choice():
+#     choices = ['rock', 'paper', 'scissors']
+#     return random.choice(choices)
 
-def get_user_choice():
-    user_input = input("Enter your choice (rock, paper, or scissors): ").lower()
-    while user_input not in ['rock', 'paper', 'scissors']:
-        print("Invalid choice. Please try again.")
-        user_input = input("Enter your choice (rock, paper, or scissors): ").lower()
-    return user_input
+# def get_user_choice():
+#     user_input = input("Enter your choice (rock, paper, or scissors): ").lower()
+#     while user_input not in ['rock', 'paper', 'scissors']:
+#         print("Invalid choice. Please try again.")
+#         user_input = input("Enter your choice (rock, paper, or scissors): ").lower()
+#     return user_input
 
-def determine_winner(user_choice, computer_choice):
-    if user_choice == computer_choice:
-        return "It's a tie!"
-    elif (user_choice == 'rock' and computer_choice == 'scissors') or \
-         (user_choice == 'paper' and computer_choice == 'rock') or \
-         (user_choice == 'scissors' and computer_choice == 'paper'):
-        return "You win!"
-    else:
-        return "You lose!"
+# def determine_winner(user_choice, computer_choice):
+#     if user_choice == computer_choice:
+#         return "It's a tie!"
+#     elif (user_choice == 'rock' and computer_choice == 'scissors') or \
+#          (user_choice == 'paper' and computer_choice == 'rock') or \
+#          (user_choice == 'scissors' and computer_choice == 'paper'):
+#         return "You win!"
+#     else:
+#         return "You lose!"
 
-def play_game():
-    user_choice = get_user_choice()
-    comp_choice = get_computer_choice()
-    print(f"Computer chose: {comp_choice}")
-    result = determine_winner(user_choice, comp_choice)
-    print(result)
+# def play_game():
+#     user_choice = get_user_choice()
+#     comp_choice = get_computer_choice()
+#     print(f"Computer chose: {comp_choice}")
+#     result = determine_winner(user_choice, comp_choice)
+#     print(result)
 
-# Play the game
-play_game()
+# # Play the game
+# play_game()
 
 
 
@@ -574,6 +574,34 @@ play_game()
  
 # converter()    
 
+
+################################################# Water reminder
+# import time
+# import pyttsx3
+# from win10toast import ToastNotifier
+
+# engine = pyttsx3.init()
+# toast = ToastNotifier()
+
+# # user_input = int(input("Enter the min for reminder: "))
+# repeat_interval = 10
+
+# # while True:    
+# for index,_ in enumerate(range(repeat_interval), start=1):
+#     time.sleep(1)
+#     print(index)
+
+# toast.show_toast(
+#     "Water Reminder",
+#     "Please drink water and take care of your health.",
+#     duration = 10,
+#     # icon_path = "icon.ico",
+#     threaded = True,
+# )
+# # print("Please drink water and take care of your health.")
+
+# engine.say("Hello Pulkit! Please drink water and take care of your health.")
+# engine.runAndWait()
 
 
 

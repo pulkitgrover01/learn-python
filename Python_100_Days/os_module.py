@@ -1,10 +1,10 @@
 
 
-import os
+# import os
 
-list = ["Assets","Edits","Render"]
-list2 = ["File1","File2","File3"]
-list3 = ["Play1","Play2","Play3"]
+# list = ["Assets","Edits","Render"]
+# list2 = ["File1","File2","File3"]
+# list3 = ["Play1","Play2","Play3"]
 
 
 # if not os.path.exists("SWH_Remake_Start"):
@@ -25,9 +25,9 @@ list3 = ["Play1","Play2","Play3"]
 # print("Hello")
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
-i = 1
-if not os.path.exists("Data_Testing"):
-    os.mkdir("Data_Testing")
+# i = 1
+# if not os.path.exists("Data_Testing"):
+#     os.mkdir("Data_Testing")
 
 #To create folder in folder
 # if not os.path.exists(f"Data_Testing/Day{i}"):
@@ -37,8 +37,22 @@ if not os.path.exists("Data_Testing"):
 #To rename the folder
 # for i in range(1,101):
 #     os.rename(f"Data_Testing/Classes {i}", f"Data_Testing/Places {i}")
-print(os.getcwd())
+# print(os.getcwd())
 
-print("Hello")
+# print("Hello")
+
+
+
+# import os
+# i = 1
+# files = os.listdir("name_change_file")
+# for file in files:
+#     if file.endswith(".pdf"):
+#         os.rename(f"name_change_file/{file}", f"name_change_file/{i}.pdf")
+#         i += 1
+#         print(file)
+
+
+
 
 

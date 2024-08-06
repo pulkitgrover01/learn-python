@@ -1,10 +1,7 @@
-Welcome to chistmas Party
-            x
-           xxx
-          xxxxx
-         xxxxxxx
-       xxxxxxxxxxx
-            x
-            x
-            x
-            x    
+
+pwd = "Present working directory
+cd = "change directory"
+dir = "list content of the directory
+
+value, veriables, Functions, Methodas, data types, Operators
+

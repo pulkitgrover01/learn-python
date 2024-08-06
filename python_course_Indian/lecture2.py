@@ -65,16 +65,18 @@
 # print(grade)
 
 ############
-# value = int(input("Please enter your value to find Even or odd:"))
-# result = value % 2
-# if result == 0:
-#     output = "Even"
+value = int(input("Please enter your value to find Even or odd:"))
+result = value % 20
+print(result)
 
-# else:
-#     output = "odd"
+if result == 0:
+    output = "Even"
+
+else:
+    output = "odd"
 
 # output = "even" if result == 0 else "odd"
-# print("Your value is:",output)
+print("Your value is:",output)
 ###############
 
 # value =  int(input("Enter your value: "))

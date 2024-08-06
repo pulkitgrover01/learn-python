@@ -53,7 +53,7 @@
             
 
 #         print(f"Hi {self.name}.\nYou scored in:\nMath: {self.marks[0]}\nPhysics: {self.marks[1]}\nChem: {self.marks[2]}\
-#               \nEnglish: {self.marks[3]}\nBiology: {self.marks[4]}\nYour total: {sum}\nAvg score is: {sum/5}")
+#               \nEnglish: {self.marks[3]}\nBiology: {self.marks[4]}\nYour total: {sum}\nAvg score is: {sum/len(self.marks)}")
 
     
 # s1 = student("Pulkt",[78,94,86,75,92])
